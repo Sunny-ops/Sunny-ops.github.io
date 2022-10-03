@@ -1,0 +1,39 @@
+nav {
+    height: 80px;
+    width: 100vw;
+    left:0;
+    position: fixed;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-container{
+    height: 60px;
+    width:90%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left{
+    height: 50px;
+    width: 180px;
+    /* margin-left: 60px; */
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-right{
+    height: 50px;
+    width:600px;
+    /* margin-right:60px; */
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
