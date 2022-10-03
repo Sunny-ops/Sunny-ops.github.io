@@ -1,0 +1,81 @@
+nav {
+    height: 80px;
+    width: 100vw;
+    top:0;
+    left:0;
+    position: fixed;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-container{
+    height: 60px;
+    width:90%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left{
+    height: 50px;
+    width: 180px;
+    /* margin-left: 60px; */
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-right{
+    height: 50px;
+    width:600px;
+    /* margin-right:60px; */
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container{
+    /* height:80vh;
+    width: 90vw;
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    /* margin-top:200px; */
+    /* background-color:bisque; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex: 0 0 33.333333%;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-between;
+    align-content: flex-start;
+    list-style: none;
+    /* margin-top:100px */
+}
+
+.project-title{
+    margin-top:150px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.inner-container{
+    width:30vw;
+    height:30vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding:20px; */
+}
+.svg-image{
+    width: 50%;
+    height:50%
+}
