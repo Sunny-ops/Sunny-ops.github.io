@@ -22,7 +22,7 @@ nav {
     height: 50px;
     width: 180px;
     /* margin-left: 60px; */
-    background-color:bisque;
+    /* background-color:bisque; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@ nav {
     height: 50px;
     width:600px;
     /* margin-right:60px; */
-    background-color:bisque;
+    /* background-color:bisque; */
     display: flex;
     align-items: center;
     justify-content: space-between;
