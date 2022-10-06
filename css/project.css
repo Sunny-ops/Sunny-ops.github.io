@@ -25,7 +25,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: gray
+    color: gray;
+    z-index: 1;
 }
 
 .navbar-container{
@@ -86,10 +87,12 @@ nav {
     display:flex;
     align-items:center;
     justify-content: center;
+    color:gray;
 }
 
 .inner-container{
     background-color: darksalmon;
+    opacity:0.6;
     width:600px;
     height:400px;
     display:flex;
@@ -102,5 +105,8 @@ nav {
     margin-top: 70px;
     width: 50%;
     height:50%;
-    
+}
+
+li{
+    list-style:circle;
 }
