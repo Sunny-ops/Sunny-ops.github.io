@@ -1,65 +1,4 @@
-body {
-    font-family:Arial, Helvetica, sans-serif;
-}
 
-a{ 
-    color: inherit; 
-    text-decoration: none; 
-    /* color:gray; */
-}
-
-a:hover {
-     color: white; 
-}
-a:active { text-decoration: none; }
-a:visited { text-decoration: none; }
-
-
-nav {
-    height: 80px;
-    width: 100vw;
-    top:0;
-    left:0;
-    position: fixed;
-    background-color:bisque;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: gray
-}
-
-.navbar-container{
-    height: 60px;
-    width:90%;
-    background-color:bisque;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar-left{
-    height: 50px;
-    width: 180px;
-    /* margin-left: 60px; */
-    /* background-color:bisque; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar-left:hover {
-    color: white;
-}
-
-.navbar-right{
-    height: 50px;
-    width:600px;
-    /* margin-right:60px; */
-    /* background-color:bisque; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .main-container{
     display: flex;
@@ -112,12 +51,13 @@ nav {
         "title1 content1"
         "title2 content2";
     grid-gap: 20px;
-    height: 630px;    
+    height: 1020px;
+    /* color:gray;  */
 }
 
 .experience-all{
-    height: 300px;
-    display: grid;
+    height: 500px;
+    display: flex;
     align-items: center;
     /* justify-content: center; */
     background-color:darksalmon;
@@ -132,6 +72,10 @@ nav {
 .experience-content1{
     grid-area: content1;
     font-size: larger;
+    background-color: bisque;
+    opacity: 1;
+    padding-left: 50px;
+    color:gray;
 }
 
 .experience-title2{
@@ -143,6 +87,10 @@ nav {
 .experience-content2{
     grid-area: content2;
     font-size:larger;
+    background-color: bisque;
+    opacity: 1;
+    color:gray;
+    padding-left: 50px;
 }
 
 li{

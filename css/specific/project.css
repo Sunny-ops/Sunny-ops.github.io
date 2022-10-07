@@ -1,0 +1,64 @@
+
+
+.main-container{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex: 0 0 33.333333%;
+    justify-content: space-around;
+    align-content: flex-start;
+    list-style: none; */
+
+    display: flex;
+    flex-flow: row wrap;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+
+}
+
+.project-title{
+    margin-top:100px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:gray;
+}
+
+.inner-container{
+    /* background-color: indigo; */
+    opacity:0.6;
+    width:600px;
+    height:400px;
+    display:flex;
+    margin-top: 10px;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;    
+}
+.photo-container{
+    border-radius: 50%;
+    width:400px;
+    height: 400px;
+    background-color: darksalmon;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.content-container{
+    background-color:bisque;
+    /* opacity:0.6; */
+}
+.svg-image{
+    margin-top: 70px;
+    width: 50%;
+    height:50%;
+}
+
+li{
+    list-style:circle;
+}
