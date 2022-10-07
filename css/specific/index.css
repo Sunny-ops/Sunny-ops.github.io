@@ -74,7 +74,7 @@
     font-size: larger;
     background-color: bisque;
     opacity: 1;
-    padding-left: 50px;
+    padding-left: 10px;
     color:gray;
 }
 
@@ -90,20 +90,47 @@
     background-color: bisque;
     opacity: 1;
     color:gray;
-    padding-left: 50px;
+    padding-left: 10px;
 }
 
 li{
     list-style:circle;
+    font-style: italic;
 }
 
-.font-title{
+.info-container .font-title{
     font-style: italic;
     font-family: papyrus;
     font-size: 50px;
     color: gray;
 }
 
-h4{
-    height:10px;
+/* .experience-container h4{
+    font-size:10px;
+} */
+
+@media(max-width: 800px) {
+    .experience-all{
+        font-size: small;
+        height: 300px;
+    }
+    .experience-container{
+        height: 650px;
+    }
+    .photo-container{
+        width: 200px;
+    }
+    .info-container{
+        width: 200px;
+        font-size: x-small;
+        margin-left: 40px;
+    }
+    .info-container .font-title{
+        font-size: 30px;
+    }
+    .photo-image{
+        height:50%
+    }
 }
+
+

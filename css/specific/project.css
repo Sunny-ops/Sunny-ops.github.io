@@ -34,7 +34,7 @@
     width:600px;
     height:400px;
     display:flex;
-    margin-top: 10px;
+    margin-top: 40px;
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;    
@@ -51,6 +51,7 @@
 
 .content-container{
     background-color:bisque;
+    padding: 20px;
     /* opacity:0.6; */
 }
 .svg-image{
@@ -61,4 +62,19 @@
 
 li{
     list-style:circle;
+}
+
+@media(max-width: 600px) {
+    .inner-container{
+        width:300px;
+        height:200px;
+        font-size:xx-small;
+    }
+    .photo-container{
+        width: 200px;
+        height: 200px;
+    }
+    .svg-image{
+        margin-top:50px;
+    }
 }

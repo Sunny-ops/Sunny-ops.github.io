@@ -75,4 +75,22 @@
     background-color:antiquewhite;
     /* opacity: 1; */
 }
-  
+ 
+@media(max-width: 600px) {
+    .inner-container{
+        width:300px;
+        height:200px; 
+    }
+    .photo-container{
+        width:250px;
+        height: 190px; 
+    }
+    .photo-container .text{
+        margin-left:20px;
+        margin-top: -130px;
+        font-size: 10px;
+        color: black;
+        /* opacity: 0.8; */
+        display:none;
+    }
+}
