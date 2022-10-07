@@ -64,6 +64,11 @@ li{
     list-style:circle;
 }
 
+.inner-container a:hover{
+    color:coral;
+    font-size: larger;
+}
+
 @media(max-width: 600px) {
     .inner-container{
         width:300px;
